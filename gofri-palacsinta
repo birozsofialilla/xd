@@ -2,7 +2,8 @@ from scipy.optimize import linprog
 
 
 
-c = [-21, -12]  # gorfri profit, palacsinta profit -SZÁM!!!
+c = [-21, -12]  # gorfri profit, palacsinta profit Tehát ide írod az árakat ( elŐSZÖR GOFRI AZTÁN PALACSINTA mínusz marad)
+
 
 A = [
     [70, 40],  # Liszt korlát palacsinta
