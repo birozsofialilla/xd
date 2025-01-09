@@ -6,10 +6,10 @@ c = [-21, -12]  # gorfri profit, palacsinta profit Tehát ide írod az árakat (
 
 
 A = [
-    [70, 40],  # Liszt korlát palacsinta
-    [60, 45],  # Tej korlát palacsinta
-    [1, 0],
-    [0, 1]
+    [70, 40],  # Liszt korlát palacsinta:  Behugyozod, hogy a gofrihoz és a palacsintához a liszt az mennyi
+    [60, 45],  # Tej korlát palacsinta: Behugyozod, hogy a gofrihoz és a palacsintához a tej az mennyi
+    [1, 0],    # Gofri maximális darabszám
+    [0, 1]      #Palacsinta maximális darabszám
 ]
 b = [6500, 6075, 90, 75]  #liszt, tej max, legfeljebb darab gofri, pali
 bounds = [(0, None), (0, None)]
